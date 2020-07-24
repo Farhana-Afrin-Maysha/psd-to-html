@@ -1,0 +1,1110 @@
+.container {
+    position: relative;
+    width: 100%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+ .text {
+      font-size: 14px;
+      font-family: "SourceSansPro";
+      color:rgb(80, 106, 133);
+      position: absolute;
+      text-align: left;
+      left: 350.648px;
+      top: 10.792px;
+      z-index: 562;
+  }
+  .img1 {
+    float: left;
+    top: 9.5px;
+    position: absolute;
+    left: 450.938px;
+    z-index: 214;
+  }
+  .home {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 550.938px;
+    top: 9.5px;
+    z-index: 213;
+  }
+  .portfolio {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 655.938px;
+    top: 9.5px;
+    z-index: 212;
+  }
+  .blog {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 760.938px;
+    top: 9.5px;
+    z-index: 211;
+  }
+  .pages {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 845.938px;
+    top: 9.5px;
+    z-index: 210;
+  }
+  .features {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 930.938px;
+    top: 9px;
+    z-index: 209;
+  }
+  .mega_Menu {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 1070.938px;
+    top: 9.5px;
+    z-index: 208;
+  }
+  .contact {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 1245.938px;
+    top: 9.5px;
+    z-index: 207;
+  }
+  .img2 {
+    float: left;
+    top: 9.5px;
+    position: absolute;
+    left: 1520.938px;
+    z-index: 206;
+  }
+  .background_nav {
+    background-color: rgb(245, 247, 251);
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+    position: absolute;
+    left: 0px;
+    top: 39px;
+    width: 1920px;
+    height: 20px;
+    z-index: 218;
+  }
+
+  .image1 {
+    float: left;
+    top: 89.5px;
+    position: absolute;
+    left: 450.938px;
+    z-index: 214;
+  }
+  .Home {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 612.938px;
+    top: 89.5px;
+    z-index: 213;
+  }
+  .Portfolio {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 706.938px;
+    top: 89.5px;
+    z-index: 212;
+  }
+  .Blog {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 824.938px;
+    top: 89.5px;
+    z-index: 211;
+  }
+  .Pages {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 897.938px;
+    top: 89.5px;
+    z-index: 210;
+  }
+  .Features {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(80, 106, 133);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 977.938px;
+    top: 89px;
+    z-index: 209;
+  }
+  .Mega_Menu {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 1105.938px;
+    top: 89.5px;
+    z-index: 208;
+  }
+  .Contact {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 1320.938px;
+    top: 89.5px;
+    z-index: 207;
+  }
+  .image2 {
+    float: left;
+    top: 89.5px;
+    position: absolute;
+    left: 1520.938px;
+    z-index: 206;
+  }
+  .Made_for_Designers_Create_your_online_portfolio {
+    font-size: 78px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.128;
+    text-align: center;
+    position: absolute;
+    left: 474.119px;
+    top: 269.538px;
+    width: 943px;
+    height: 150px;
+    z-index: 178;
+  }
+  .small {
+    font-size: 17px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.128;
+    text-align: center;
+    position: absolute;
+    left: 474.119px;
+    top: 380.538px;
+    width: 943px;
+    height: 150px;
+    z-index: 170;
+  }
+
+  .background1 {
+    background-color: rgb(80, 106, 133);
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    top: 153px;
+    width: 1920px;
+    height: 880px;
+    z-index: 172;
+  }
+  .btn_large {
+    border-radius: 3px;
+    background-color: rgb(0, 188, 156);
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 813px;
+    top: 505px;
+    width: 295px;
+    height: 65px;
+    z-index: 175;
+  }
+  .Beautiful__Clean__Responsive__REEN_is_a_high_qu {
+    font-size: 44px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.227;
+    text-align: center;
+    position: absolute;
+    left: 564.538px;
+    top: 1011.135px;
+    width: 785px;
+    height: 166px;
+    z-index: 129;
+  }
+  .subheading1 {
+    font-size: 21px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.227;
+    text-align: center;
+    position: absolute;
+    left: 564.538px;
+    top: 1111.135px;
+    width: 785px;
+    height: 166px;
+    z-index: 129;
+  }
+  .subheading2 {
+    font-size: 21px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.227;
+    text-align: center;
+    position: absolute;
+    left: 550.538px;
+    top: 1161.135px;
+    width: 785px;
+    height: 166px;
+    z-index: 129;
+  }
+  .subheading3 {
+    font-size: 21px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.227;
+    text-align: center;
+    position: absolute;
+    left: 565.538px;
+    top: 1211.135px;
+    width: 785px;
+    height: 166px;
+    z-index: 129;
+  }
+  .image_heart {
+    float: left;
+    top: 1358.176px;
+    position: absolute;
+    left: 365.938px;
+    z-index: 127;
+  }
+  .Passion_Magnis_modipsae_que_lib_voloratati_andi {
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.308;
+    text-align: left;
+    position: absolute;
+    left: 474.002px;
+    top: 1338.264px;
+    width: 269px;
+    height: 168px;
+    z-index: 127;
+  }
+
+  .Subheading_Passion {
+    font-size: 15.5px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.308;
+    text-align: left;
+    position: absolute;
+    left: 474.002px;
+    top: 1390.264px;
+    width: 269px;
+    height: 168px;
+    z-index: 127;
+  }
+  .image_lamp {
+    float: left;
+    top: 1358.176px;
+    position: absolute;
+    left: 790.938px;
+    z-index: 127;
+  }
+  .Creativity_Magnis_modipsae_que_lib_voloratati_a {
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.308;
+    text-align: left;
+    position: absolute;
+    left: 874.002px;
+    top: 1338.238px;
+    width: 269px;
+    height: 168px;
+    z-index: 125;
+  }
+  .Subheading_Creativity {
+    font-size: 15.5px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.308;
+    text-align: left;
+    position: absolute;
+    left: 874.002px;
+    top: 1390.264px;
+    width: 269px;
+    height: 168px;
+    z-index: 127;
+  }
+  .image_star {
+    float: left;
+    top: 1358.176px;
+    position: absolute;
+    left: 1175.938px;
+    z-index: 127;
+  }
+  .Quality_Magnis_modipsae_que_lib_voloratati_andi {
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.308;
+    text-align: left;
+    position: absolute;
+    left: 1274.002px;
+    top: 1338.176px;
+    width: 269px;
+    height: 169px;
+    z-index: 123;
+  }
+  .Subheading_Quality {
+    font-size: 15.5px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.308;
+    text-align: left;
+    position: absolute;
+    left: 1274.002px;
+    top: 1390.264px;
+    width: 269px;
+    height: 168px;
+    z-index: 127;
+  }
+  .background_checkout {
+    background-color: rgb(242, 245, 247);
+    position: absolute;
+    left: 0px;
+    top: 1705px;
+    width: 1920px;
+    height: 1270px;
+    z-index: 66;
+  }
+  .Check_out_our_latest_works_Magnis_modipsae_que_ {
+    font-size: 44px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.227;
+    text-align: center;
+    position: absolute;
+    left: 560.691px;
+    top: 100.109px;
+    width: 747px;
+    height: 98px;
+    z-index: 120;
+  }
+  .Subheading_checkout {
+    font-size: 21px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.227;
+    text-align: center;
+    position: absolute;
+    left: 545.691px;
+    top: 170.109px;
+    width: 747px;
+    height: 98px;
+    z-index: 120;
+  }
+  .figure {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 119;
+  }
+  .image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 118;
+  }
+  .image_grand_model {
+    background-image: url("image/image1.png");
+    position: absolute;
+    left: 375px;
+    top: 281px;
+    width: 570px;
+    height: 390px;
+    z-index: 117;
+  }
+  .image_brand {
+    background-image: url("image/image2.png");
+    position: absolute;
+    left: 975px;
+    top: 281px;
+    width: 570px;
+    height: 390px;
+    z-index: 117;
+  }
+  .background {
+    background-color: rgb(0, 188, 156);
+    position: absolute;
+    left: 375px;
+    top: 2011px;
+    width: 570px;
+    height: 390px;
+    z-index: 116;
+  }
+  .figcaption {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 114;
+  }
+  .Grand_Motel_gets_an_identity_brushup_Identity {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;
+    position: absolute;
+    left: 403.899px;
+    top: 705.198px;
+    width: 346px;
+    height: 46px;
+    z-index: 113;
+  }
+  .text_idendity {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+    position: absolute;
+    left: 463.899px;
+    top: 705.198px;
+    width: 346px;
+    height: 46px;
+    z-index: 113;
+  }
+  .background_text_Grand {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px -1px 0px 1px rgba(230, 233, 237, 0.004);
+    position: absolute;
+    left: 375px;
+    top: 650px;
+    width: 570px;
+    height: 122px;
+    z-index: 112;
+  }
+  .figcaption {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 104;
+  }
+  .Fresh_branding_for_a_creative_startup_Identity {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;
+    position: absolute;
+    left: 1003.459px;
+    top: 705.198px;
+    width: 337px;
+    height: 46px;
+    z-index: 103;
+  }
+  .text_idendity_2 {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+    position: absolute;
+    left: 1053.459px;
+    top: 705.198px;
+    width: 337px;
+    height: 46px;
+    z-index: 103;
+  }
+  .background_text_Fresh {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px -1px 0px 1px rgba(230, 233, 237, 0.004);
+    position: absolute;
+    left: 975px;
+    top: 650px;
+    width: 570px;
+    height: 122px;
+    z-index: 102;
+  }
+  .carousel_body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 99;
+  }
+  .navigation_body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 98;
+  }
+  .btn_prev_body_1 {
+    opacity: 0.25;
+    position: absolute;
+    left: 0px;
+    top: -3000px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 97;
+  }
+  .btn_prev_body_2 {
+    border-radius: 3px;
+    background-color: rgb(80, 106, 133);
+    position: absolute;
+    left: 883px;
+    top: 1118px;
+    width: 30px;
+    height: 30px;
+    z-index: 95;
+  }
+  .btn_img_left {
+    left: 888px;
+    top: 1122px;
+    width: 20px;
+    height: 20px;
+    z-index: 94;
+    position: absolute;
+  }
+  .btn_img_right {
+    left: 1013px;
+    top: 1122px;
+    width: 20px;
+    height: 20px;
+    z-index: 94;
+    position: absolute;
+  }
+
+  .btn_next_body_1 {
+    opacity: 0.251;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 93;
+  }
+  .btn_next_body_2 {
+    border-radius: 3px;
+    background-color: rgb(80, 106, 133);
+    position: absolute;
+    left: 1008px;
+    top: 1118px;
+    width: 30px;
+    height: 30px;
+    z-index: 91;
+  }
+  .pagination_body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 88;
+  }
+  .indicator_body_1 {
+    border-radius: 50%;
+    background-color: rgb(80, 106, 133);
+    position: absolute;
+    left: 928px;
+    top: 1123px;
+    width: 15px;
+    height: 15px;
+    z-index: 87;
+  }
+  .indicator_body_2 {
+    border-radius: 50%;
+    background-color: rgb(0, 188, 156);
+    position: absolute;
+    left: 953px;
+    top: 1123px;
+    width: 15px;
+    height: 15px;
+    z-index: 86;
+  }
+  .indicator_body_3 {
+    border-radius: 50%;
+    background-color: rgb(80, 106, 133);
+    position: absolute;
+    left: 978px;
+    top: 1123px;
+    width: 15px;
+    height: 15px;
+    z-index: 85;
+  }
+  .item_body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 83;
+  }
+  .image_body_1 {
+    background-image: url("image/image_slider_body_1.png");
+    position: absolute;
+    left: 375px;
+    top: 890px;
+    width: 270px;
+    height: 185px;
+    z-index: 82;
+  }
+  .background_body {
+    background-color: rgb(0, 188, 156);
+    position: absolute;
+    left: 375px;
+    top: 2593px;
+    width: 270px;
+    height: 185px;
+    z-index: 81;
+  }
+  .item_body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 79;
+  }
+  .image_body_2 {
+    background-image: url("image/image_slider_body_2.png");
+    position: absolute;
+    left: 675px;
+    top: 890px;
+    width: 270px;
+    height: 185px;
+    z-index: 78;
+  }
+  .background_body {
+    background-color: rgb(0, 188, 156);
+    position: absolute;
+    left: 675px;
+    top: 2593px;
+    width: 270px;
+    height: 185px;
+    z-index: 77;
+  }
+  .item_body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 75;
+  }
+  .image_body_3 {
+    background-image: url("image/image_slider_body_3.png");
+    position: absolute;
+    left: 975px;
+    top: 890px;
+    width: 270px;
+    height: 185px;
+    z-index: 74;
+  }
+  .background_body {
+    background-color: rgb(0, 188, 156);
+    position: absolute;
+    left: 975px;
+    top: 2593px;
+    width: 270px;
+    height: 185px;
+    z-index: 73;
+  }
+  .item_body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 71;
+  }
+  .image_body_4 {
+    background-image: url("image/image_slider_body_4.png");
+    position: absolute;
+    left: 1275px;
+    top: 890px;
+    width: 270px;
+    height: 185px;
+    z-index: 70;
+  }
+  .background_body {
+    background-color: rgb(0, 188, 156);
+    position: absolute;
+    left: 1275px;
+    top: 2593px;
+    width: 270px;
+    height: 185px;
+    z-index: 69;
+  }
+  .Want_to_work_with_us__Magnis_modipsae_que_volor {
+    font-size: 44px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.227;
+    text-align: center;
+    position: absolute;
+    left: 560.691px;
+    top: 3154.109px;
+    width: 747px;
+    height: 132px;
+    z-index: 63;
+  }
+  .subheading_want {
+    font-size: 19px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: 500;
+    line-height: 1.3;
+    text-align: center;
+    position: absolute;
+    left: 500.459px;
+    top: 3220.198px;
+    width: 800px;
+    height: 46px;
+    z-index: 62;
+  }
+  .btn {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 3905px;
+    z-index: 62;
+  }
+  .Get_in_touch {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 909.937px;
+    top: 3293.5px;
+    z-index: 61;
+  }
+  .btn_large_1 {
+    border-radius: 3px;
+    background-color: rgb(0, 188, 156);
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 885px;
+    top: 3354px;
+    width: 150px;
+    height: 50px;
+    z-index: 60;
+  }
+  .Who_we_are__Magnis_modipsae_voloratati_andigen_ {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 373.937px;
+    top: 100.546px;
+    width: 263px;
+    height: 210px;
+    z-index: 55;
+  }
+  .Content_who_are {
+    font-size: 10px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 373.937px;
+    top: 200.546px;
+    width: 263px;
+    height: 210px;
+    z-index: 54;
+  }
+  .background_footer {
+    background-color: rgb(47, 64, 82);
+    position: absolute;
+    left: 0px;
+    top: 3708px;
+    width: 1920px;
+    height: 447px;
+    z-index: 51;
+  }
+  .img_footer_logo {
+    position: absolute;
+    left: 373.937px;
+    top: 150.546px;
+    width: 100px;
+    height: 30px;
+    z-index: 50;
+  }
+  .Latest_works {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 673.937px;
+    top: 100.546px;
+    width: 136px;
+    height: 13px;
+    z-index: 49;
+  }
+
+  .image_thumb_1 {
+    background-image: url("image/image_thumb_1.png");
+    position: absolute;
+    left: 675px;
+    top: 150px;
+    width: 125px;
+    height: 85px;
+    z-index: 47;
+  }
+  
+  .image_thumb_2 {
+    background-image: url("image/image_thumb_2.png");
+    position: absolute;
+    left: 805px;
+    top: 150px;
+    width: 126px;
+    height: 85px;
+    z-index: 43;
+  }
+
+  .image_thumb_3 {
+    background-image: url("image/image_thumb_3.png");
+    position: absolute;
+    left: 675px;
+    top: 240px;
+    width: 125px;
+    height: 85px;
+    z-index: 39;
+  }
+ 
+  .image_thumb_4 {
+    background-image: url("image/image_thumb_4.png");
+    position: absolute;
+    left: 805px;
+    top: 240px;
+    width: 126px;
+    height: 85px;
+    z-index: 35;
+  }
+  
+  .icon_location {
+    position: absolute;
+    left: -10px;
+    top: 78px;
+    z-index: 30;
+  }
+
+  .Get_in_touch_Doloreiur_quia_commolu_ptatemp_dol {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 973.937px;
+    top: 120.546px;
+    width: 254px;
+    height: 177px;
+    z-index: 27;
+  }
+
+  .Content_get_touch {
+    font-size: 10px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 973.937px;
+    top: 150.546px;
+    width: 263px;
+    height: 210px;
+    z-index: 26;
+  }
+  .Free_updates_Conecus_iure_posae_volor_remped_mo {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 1273.937px;
+    top: 100.546px;
+    width: 260px;
+    height: 74px;
+    z-index: 24;
+  }
+  .Content_update {
+    font-size: 10px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    line-height: 1.375;
+    text-align: left;
+    position: absolute;
+    left: 1273.937px;
+    top: 150.546px;
+    width: 263px;
+    z-index: 26;
+  }
+ 
+  .form_footer {
+    position: absolute;
+    left: 1280px;
+    top: 250px;
+    width: 250px;
+    /* height: 3905px; */
+    z-index: 23;
+  }
+  .background_footer_end {
+    background-color: rgb(47, 64, 82);
+    position: absolute;
+    left: 0px;
+    top: 420px;
+    width: 1920px;
+    height: 127px;
+    z-index: 5;
+  }
+
+  .foor_copyright {
+    font-size: 19px;
+    font-family: "SourceSansPro";
+    color: wheat;
+    line-height: 1.571;
+    text-align: left;
+    position: absolute;
+    left: 674.937px;
+    top: 470.25px;
+    width: 499px;
+    height: 15px;
+    z-index: 13;
+  }
